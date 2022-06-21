@@ -26,7 +26,8 @@ export class Content extends Component {
 
   render() {
     const { isLoaded, content } = this.state;
-        if (!isLoaded) 
+
+    if (!isLoaded) 
         return 
         <div><h1>Fetching Commits...</h1></div> ;
 
