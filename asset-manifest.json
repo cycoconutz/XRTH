@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/XRTH/static/css/main.e0def847.css",
+    "main.js": "/XRTH/static/js/main.7b86a430.js",
+    "static/js/787.97d9823a.chunk.js": "/XRTH/static/js/787.97d9823a.chunk.js",
+    "index.html": "/XRTH/index.html",
+    "main.e0def847.css.map": "/XRTH/static/css/main.e0def847.css.map",
+    "main.7b86a430.js.map": "/XRTH/static/js/main.7b86a430.js.map",
+    "787.97d9823a.chunk.js.map": "/XRTH/static/js/787.97d9823a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0def847.css",
+    "static/js/main.7b86a430.js"
+  ]
+}
