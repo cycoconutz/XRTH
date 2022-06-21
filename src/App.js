@@ -4,7 +4,7 @@ import Content from './Components/Content';
 
 function App() {
   return (
-    <div className="pb-5">
+    <div className="pb-5 mb-5">
     <Header/>
     <Content/>
     <Footer/>

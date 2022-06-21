@@ -32,17 +32,16 @@ export class Content extends Component {
 
     return (
         <div className='flex-container pt-5 mt-5'>
-        <h2 className='text-center'>Commit History</h2>
+        <h2 className='text-center'>Commit History:<hr></hr></h2>
         <div className='content'>
         </div>
-        <div className="App">
-            <h1> Fetch data from an api in react </h1>  {
-                content.map((content) => ( 
+        <div className="text-center">
+              {content.map((content) => ( 
                 <ol key = { content.sha } >
-                    <li>Author: { content.commit.author.name }</li>
-                    <li>Message: { content.message }</li>
-                    <li><a>URL: { content.commit.tree.url }</a></li> 
-                    </ol>
+                    Author:  { content.commit.author.name}<br></br>
+                    Message:  { content.commit.message }<br></br>
+                    <a href={content.html_url }>Link</a><hr></hr>
+                </ol>
                 ))
             }
         </div>
