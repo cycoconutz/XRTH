@@ -3,7 +3,11 @@
     font-family: 'Tiro Devanagari Hindi', serif;
 }
 
-footer {
+header{
+    font-size:36px;
+}
+
+footer, header {
     background-color: #5c58b6;
 }
 
