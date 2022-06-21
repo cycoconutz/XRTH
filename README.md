@@ -24,7 +24,9 @@
 
 ## Installation:
 The application will be invoked by using the following command:
-None, refreshing the page will update with any new commits.
+If you are cloning the repo and running locally, run 'npm i' from the root folder.
+Then once the packages are all installed run 'npm start' to launch the website.
+After making a commit to the repo, refresh the website to see it rendered on the page.
 
 
 And is dependant upon:
