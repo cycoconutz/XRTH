@@ -1,0 +1,31 @@
+#root {
+    height: 100%;
+    font-family: 'Tiro Devanagari Hindi', serif;
+}
+
+footer {
+    background-color: #5c58b6;
+}
+
+
+.clear {
+    clear: both;
+    height: 60px;
+}
+
+.nav {
+    background-color: #3a4e93;
+}
+
+.nav-link {
+    color: #94D0FF;
+}
+
+.nav-item {
+    font-size: 2rem;
+    padding: .5rem 1rem 0 1rem;
+}
+
+.nav-item :hover {
+    color: #8795E8;
+}
